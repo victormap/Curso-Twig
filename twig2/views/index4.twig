@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Aprendiendo Twig</title>
+    </head>
+    
+    <body>
+        <h1>Datos de usuario</h1>
+        <p>
+            Nombres: {{ user.name|striptags|upper }}
+        </p>
+        <p>
+            Apellidos: {{ user.lastname|title }}
+        </p>
+        <p>
+            Email: {{ user.email }}
+        </p>
+        
+        <h2>Biografía</h2>
+        <p>
+            {% filter title %}
+            Este es un texto super largo. Esse voluptate ne efflorescere iis est mentitum cohaerescant ne appellat lorem 
+            te incididunt domesticarum e ut enim arbitror philosophari an fugiat cupidatat domesticarum ab id quorum offendit officia ad fugiat admodum ex quis tamen aut illum incididunt firmissimum. Nam irure amet e voluptate, si admodum coniunctione ex litteris malis admodum cupidatat, legam commodo a nulla magna, ex quis summis esse probant nam quid te ea aute laboris se incididunt id officia, quae philosophari appellat noster nostrud. Ea nam philosophari.
+            {% endfilter %}
+        </p>
+        <code>
+            {{ user|json_encode }}
+        </code>
+    </body>
+</html>
