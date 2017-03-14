@@ -1,0 +1,17 @@
+commit d3a4dad2771829bde08ee48bd574b703fcd38135
+Author: Víctor Manuel <victormanuelap@gmail.com>
+Date:   Tue Mar 14 21:38:10 2017 +0100
+
+    Se eliminó el comentario añadido al archivo twig1.php
+
+commit 4a1e71b3ae187031c9b68b4e4bb985ea3e6b84b6
+Author: Víctor Manuel <victormanuelap@gmail.com>
+Date:   Tue Mar 14 21:34:00 2017 +0100
+
+    Se incluyó un comentario al archivo twig1.php
+
+commit 4e954f9e80c235243c489ed83c17c08ed576c108
+Author: Víctor Manuel <victormanuelap@gmail.com>
+Date:   Tue Mar 14 21:29:06 2017 +0100
+
+    Versión original de los archivos
