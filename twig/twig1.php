@@ -1,5 +1,4 @@
 <?php
-	{# Comentario de ejemplo en twig #}
     require_once '/usr/share/php/Twig/Autoloader.php';
     Twig_Autoloader::register();
 
