@@ -1,5 +1,4 @@
 <?php
-    // Comentario en la cuarta rama
 	require_once __DIR__ . '/../config.php';
 
     $user = [
