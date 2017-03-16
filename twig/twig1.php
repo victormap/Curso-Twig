@@ -1,5 +1,4 @@
 <?php
-    // Comentario creado para luego subir el archivo a GitHub
 	require_once '/usr/share/php/Twig/Autoloader.php';
     Twig_Autoloader::register();
 
