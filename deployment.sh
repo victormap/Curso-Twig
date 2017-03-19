@@ -1,4 +1,4 @@
 #!/bin/sh
 cd /var/www/html/twig
 git pull origin master
-sudo systemctl daemon-reload
+/etc/init.d/apache2 restart
