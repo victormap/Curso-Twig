@@ -1,5 +1,5 @@
 <?php
-    // Comentario seis
+    // Comentario siete
     require_once '/usr/share/php/Twig/Autoloader.php';
     Twig_Autoloader::register();
 
